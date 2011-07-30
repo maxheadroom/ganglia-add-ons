@@ -1,0 +1,64 @@
+
++++ Statistics Dump +++ (1311970201)
+++ Incoming Requests ++
+                2210 QUERY
+++ Incoming Queries ++
+                1609 A
+                   3 SOA
+                 314 PTR
+                   2 MX
+                 282 AAAA
+++ Outgoing Queries ++
+[View: default]
+                 150 A
+                   1 NS
+                   3 PTR
+                 161 AAAA
+[View: _bind]
+++ Name Server Statistics ++
+                2210 IPv4 requests received
+                   9 requests with EDNS(0) received
+                   2 TCP requests received
+                2210 responses sent
+                   9 responses with EDNS(0) sent
+                2136 queries resulted in successful answer
+                1277 queries resulted in authoritative answer
+                 933 queries resulted in non authoritative answer
+                  74 queries resulted in nxrrset
+                 293 queries caused recursion
+++ Zone Maintenance Statistics ++
+                  32 IPv4 notifies sent
+++ Resolver Statistics ++
+[Common]
+[View: default]
+                 315 IPv4 queries sent
+                 315 IPv4 responses received
+                   9 IPv4 NS address fetches
+                   9 IPv6 NS address fetches
+                   9 IPv6 NS address fetch failed
+                 260 queries with RTT < 10ms
+                  49 queries with RTT 10-100ms
+                   6 queries with RTT 100-500ms
+[View: _bind]
+++ Cache DB RRsets ++
+[View: default]
+                  27 A
+                  12 NS
+                   4 CNAME
+                   3 PTR
+                   9 AAAA
+                   1 RRSIG
+                   9 !AAAA
+[View: _bind (Cache: _bind)]
+++ Socket I/O Statistics ++
+                 325 UDP/IPv4 sockets opened
+                   1 UDP/IPv6 sockets opened
+                   6 TCP/IPv4 sockets opened
+                   2 TCP/IPv6 sockets opened
+                 320 UDP/IPv4 sockets closed
+                  57 TCP/IPv4 sockets closed
+                   2 TCP/IPv4 socket bind failures
+                 315 UDP/IPv4 connections established
+                  56 TCP/IPv4 connections accepted
+++ Per Zone Query Statistics ++
+--- Statistics Dump --- (1311970201)
